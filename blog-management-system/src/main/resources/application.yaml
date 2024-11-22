@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/blog-system
+    username: postgres
+    password: postgres
+  thymeleaf:
+    cache: false
+    prefix: classpath:/templates/
+  messages:
+    basename: messages
+    encoding: UTF-8
+  jpa:
+    open-in-view: false
